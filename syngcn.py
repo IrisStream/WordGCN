@@ -583,7 +583,7 @@ if __name__== "__main__":
 
 	args = parser.parse_args()
 
-	if not args.restore: args.name = args.name + '_' + time.strftime("%d_%m_%Y") + '_' + time.strftime("%H:%M:%S")
+	# if not args.restore: args.name = args.name + '_' + time.strftime("%d_%m_%Y") + '_' + time.strftime("%H:%M:%S")
 
 	tf.set_random_seed(args.seed)
 	random.seed(args.seed)
